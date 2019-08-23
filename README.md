@@ -30,6 +30,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+Map directly returns a new array whiles forEach requires it's results to be stored in a predefined array
+
 2. What is the difference between a function and a method?
 
 3. What is closure?
