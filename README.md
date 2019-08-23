@@ -34,11 +34,22 @@ Map directly returns a new array whiles forEach requires it's results to be stor
 
 2. What is the difference between a function and a method?
 
+Method is a function which belongs to an object whiles a function is an object that lives on the global scope.
+
 3. What is closure?
+
+Closure gives you access to an outer function's scope from an inner function.
 
 4. Describe the four rules of the 'this' keyword.
 
+* Window global binding
+* Implicit binding
+* New binding
+* Explicit binding
+
 5. Why do we need super() in an extended class?
+
+The super keyword is used to access functions on the parent class
 
 ## Project Set up
 
