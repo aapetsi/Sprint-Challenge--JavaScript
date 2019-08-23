@@ -43,9 +43,16 @@ Closure gives you access to an outer function's scope from an inner function.
 4. Describe the four rules of the 'this' keyword.
 
 * Window global binding
+  Within the global scope, the "this" keyword will be the window or console object.
+
 * Implicit binding
+  When a function is called by a preceeding dot, the object before the dot is this.
+
 * New binding
+  When a constructor function is used to define an object, this refers to the specific instance of the created object.
+
 * Explicit binding
+  Using call or apply method of JavaScript, this is explicitly defined.
 
 5. Why do we need super() in an extended class?
 
